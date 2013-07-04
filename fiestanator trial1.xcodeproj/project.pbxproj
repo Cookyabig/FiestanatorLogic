@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C765610A1785368E00BA2899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76561091785368E00BA2899 /* UIKit.framework */; };
+		C765610C1785368E00BA2899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C765610B1785368E00BA2899 /* Foundation.framework */; };
+		C765610E1785368E00BA2899 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C765610D1785368E00BA2899 /* CoreGraphics.framework */; };
+		C76561141785368E00BA2899 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76561121785368E00BA2899 /* InfoPlist.strings */; };
+		C76561161785368E00BA2899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76561151785368E00BA2899 /* main.m */; };
+		C765611A1785368E00BA2899 /* TesterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76561191785368E00BA2899 /* TesterAppDelegate.m */; };
+		C765611C1785368E00BA2899 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C765611B1785368E00BA2899 /* Default.png */; };
+		C765611E1785368E00BA2899 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C765611D1785368E00BA2899 /* Default@2x.png */; };
+		C76561201785368E00BA2899 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C765611F1785368E00BA2899 /* Default-568h@2x.png */; };
+		C76561231785368E00BA2899 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76561211785368E00BA2899 /* MainStoryboard.storyboard */; };
+		C76561261785368E00BA2899 /* TesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76561251785368E00BA2899 /* TesterViewController.m */; };
+		C765612E1785368F00BA2899 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C765612D1785368F00BA2899 /* SenTestingKit.framework */; };
+		C765612F1785368F00BA2899 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76561091785368E00BA2899 /* UIKit.framework */; };
+		C76561301785368F00BA2899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C765610B1785368E00BA2899 /* Foundation.framework */; };
+		C76561381785368F00BA2899 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C76561361785368F00BA2899 /* InfoPlist.strings */; };
+		C765613B1785368F00BA2899 /* fiestanator_trial1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C765613A1785368F00BA2899 /* fiestanator_trial1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C76561311785368F00BA2899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76560FE1785368E00BA2899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76561051785368E00BA2899;
+			remoteInfo = "fiestanator trial1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C76561061785368E00BA2899 /* fiestanator trial1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fiestanator trial1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76561091785368E00BA2899 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C765610B1785368E00BA2899 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C765610D1785368E00BA2899 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C76561111785368E00BA2899 /* fiestanator trial1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fiestanator trial1-Info.plist"; sourceTree = "<group>"; };
+		C76561131785368E00BA2899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C76561151785368E00BA2899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76561171785368E00BA2899 /* fiestanator trial1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fiestanator trial1-Prefix.pch"; sourceTree = "<group>"; };
+		C76561181785368E00BA2899 /* TesterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TesterAppDelegate.h; sourceTree = "<group>"; };
+		C76561191785368E00BA2899 /* TesterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesterAppDelegate.m; sourceTree = "<group>"; };
+		C765611B1785368E00BA2899 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C765611D1785368E00BA2899 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C765611F1785368E00BA2899 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C76561221785368E00BA2899 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C76561241785368E00BA2899 /* TesterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TesterViewController.h; sourceTree = "<group>"; };
+		C76561251785368E00BA2899 /* TesterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TesterViewController.m; sourceTree = "<group>"; };
+		C765612C1785368F00BA2899 /* fiestanator trial1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fiestanator trial1Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C765612D1785368F00BA2899 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C76561351785368F00BA2899 /* fiestanator trial1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fiestanator trial1Tests-Info.plist"; sourceTree = "<group>"; };
+		C76561371785368F00BA2899 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C76561391785368F00BA2899 /* fiestanator_trial1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fiestanator_trial1Tests.h; sourceTree = "<group>"; };
+		C765613A1785368F00BA2899 /* fiestanator_trial1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fiestanator_trial1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76561031785368E00BA2899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765610A1785368E00BA2899 /* UIKit.framework in Frameworks */,
+				C765610C1785368E00BA2899 /* Foundation.framework in Frameworks */,
+				C765610E1785368E00BA2899 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76561281785368F00BA2899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765612E1785368F00BA2899 /* SenTestingKit.framework in Frameworks */,
+				C765612F1785368F00BA2899 /* UIKit.framework in Frameworks */,
+				C76561301785368F00BA2899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76560FD1785368E00BA2899 = {
+			isa = PBXGroup;
+			children = (
+				C765610F1785368E00BA2899 /* fiestanator trial1 */,
+				C76561331785368F00BA2899 /* fiestanator trial1Tests */,
+				C76561081785368E00BA2899 /* Frameworks */,
+				C76561071785368E00BA2899 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76561071785368E00BA2899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76561061785368E00BA2899 /* fiestanator trial1.app */,
+				C765612C1785368F00BA2899 /* fiestanator trial1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76561081785368E00BA2899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C76561091785368E00BA2899 /* UIKit.framework */,
+				C765610B1785368E00BA2899 /* Foundation.framework */,
+				C765610D1785368E00BA2899 /* CoreGraphics.framework */,
+				C765612D1785368F00BA2899 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C765610F1785368E00BA2899 /* fiestanator trial1 */ = {
+			isa = PBXGroup;
+			children = (
+				C76561181785368E00BA2899 /* TesterAppDelegate.h */,
+				C76561191785368E00BA2899 /* TesterAppDelegate.m */,
+				C76561211785368E00BA2899 /* MainStoryboard.storyboard */,
+				C76561241785368E00BA2899 /* TesterViewController.h */,
+				C76561251785368E00BA2899 /* TesterViewController.m */,
+				C76561101785368E00BA2899 /* Supporting Files */,
+			);
+			path = "fiestanator trial1";
+			sourceTree = "<group>";
+		};
+		C76561101785368E00BA2899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76561111785368E00BA2899 /* fiestanator trial1-Info.plist */,
+				C76561121785368E00BA2899 /* InfoPlist.strings */,
+				C76561151785368E00BA2899 /* main.m */,
+				C76561171785368E00BA2899 /* fiestanator trial1-Prefix.pch */,
+				C765611B1785368E00BA2899 /* Default.png */,
+				C765611D1785368E00BA2899 /* Default@2x.png */,
+				C765611F1785368E00BA2899 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76561331785368F00BA2899 /* fiestanator trial1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C76561391785368F00BA2899 /* fiestanator_trial1Tests.h */,
+				C765613A1785368F00BA2899 /* fiestanator_trial1Tests.m */,
+				C76561341785368F00BA2899 /* Supporting Files */,
+			);
+			path = "fiestanator trial1Tests";
+			sourceTree = "<group>";
+		};
+		C76561341785368F00BA2899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76561351785368F00BA2899 /* fiestanator trial1Tests-Info.plist */,
+				C76561361785368F00BA2899 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76561051785368E00BA2899 /* fiestanator trial1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C765613E1785368F00BA2899 /* Build configuration list for PBXNativeTarget "fiestanator trial1" */;
+			buildPhases = (
+				C76561021785368E00BA2899 /* Sources */,
+				C76561031785368E00BA2899 /* Frameworks */,
+				C76561041785368E00BA2899 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fiestanator trial1";
+			productName = "fiestanator trial1";
+			productReference = C76561061785368E00BA2899 /* fiestanator trial1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C765612B1785368F00BA2899 /* fiestanator trial1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76561411785368F00BA2899 /* Build configuration list for PBXNativeTarget "fiestanator trial1Tests" */;
+			buildPhases = (
+				C76561271785368F00BA2899 /* Sources */,
+				C76561281785368F00BA2899 /* Frameworks */,
+				C76561291785368F00BA2899 /* Resources */,
+				C765612A1785368F00BA2899 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76561321785368F00BA2899 /* PBXTargetDependency */,
+			);
+			name = "fiestanator trial1Tests";
+			productName = "fiestanator trial1Tests";
+			productReference = C765612C1785368F00BA2899 /* fiestanator trial1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76560FE1785368E00BA2899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Tester;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Giba";
+			};
+			buildConfigurationList = C76561011785368E00BA2899 /* Build configuration list for PBXProject "fiestanator trial1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C76560FD1785368E00BA2899;
+			productRefGroup = C76561071785368E00BA2899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76561051785368E00BA2899 /* fiestanator trial1 */,
+				C765612B1785368F00BA2899 /* fiestanator trial1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76561041785368E00BA2899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76561141785368E00BA2899 /* InfoPlist.strings in Resources */,
+				C765611C1785368E00BA2899 /* Default.png in Resources */,
+				C765611E1785368E00BA2899 /* Default@2x.png in Resources */,
+				C76561201785368E00BA2899 /* Default-568h@2x.png in Resources */,
+				C76561231785368E00BA2899 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76561291785368F00BA2899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76561381785368F00BA2899 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C765612A1785368F00BA2899 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76561021785368E00BA2899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76561161785368E00BA2899 /* main.m in Sources */,
+				C765611A1785368E00BA2899 /* TesterAppDelegate.m in Sources */,
+				C76561261785368E00BA2899 /* TesterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76561271785368F00BA2899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C765613B1785368F00BA2899 /* fiestanator_trial1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C76561321785368F00BA2899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76561051785368E00BA2899 /* fiestanator trial1 */;
+			targetProxy = C76561311785368F00BA2899 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C76561121785368E00BA2899 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76561131785368E00BA2899 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C76561211785368E00BA2899 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76561221785368E00BA2899 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C76561361785368F00BA2899 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76561371785368F00BA2899 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C765613C1785368F00BA2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C765613D1785368F00BA2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C765613F1785368F00BA2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fiestanator trial1/fiestanator trial1-Prefix.pch";
+				INFOPLIST_FILE = "fiestanator trial1/fiestanator trial1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C76561401785368F00BA2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fiestanator trial1/fiestanator trial1-Prefix.pch";
+				INFOPLIST_FILE = "fiestanator trial1/fiestanator trial1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C76561421785368F00BA2899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fiestanator trial1.app/fiestanator trial1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fiestanator trial1/fiestanator trial1-Prefix.pch";
+				INFOPLIST_FILE = "fiestanator trial1Tests/fiestanator trial1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C76561431785368F00BA2899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fiestanator trial1.app/fiestanator trial1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fiestanator trial1/fiestanator trial1-Prefix.pch";
+				INFOPLIST_FILE = "fiestanator trial1Tests/fiestanator trial1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76561011785368E00BA2899 /* Build configuration list for PBXProject "fiestanator trial1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C765613C1785368F00BA2899 /* Debug */,
+				C765613D1785368F00BA2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C765613E1785368F00BA2899 /* Build configuration list for PBXNativeTarget "fiestanator trial1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C765613F1785368F00BA2899 /* Debug */,
+				C76561401785368F00BA2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C76561411785368F00BA2899 /* Build configuration list for PBXNativeTarget "fiestanator trial1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76561421785368F00BA2899 /* Debug */,
+				C76561431785368F00BA2899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76560FE1785368E00BA2899 /* Project object */;
+}
