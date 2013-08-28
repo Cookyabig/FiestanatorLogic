@@ -7,13 +7,32 @@
 //
 
 #import "TesterAppDelegate.h"
-
+#import "FiestanatorModel.h"
+#import "Flurry.h"
+#import "FlurryAds.h"
 @implementation TesterAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Flurry startSession:@"GP9BVV2X56VP8FPGYYVS"];
+    [FlurryAds initialize:self.window.rootViewController];
+    self.dictionary = [[NSDictionary alloc] init];
+    
+    UIImage *minImage = [[UIImage imageNamed:@"slider-track-fill.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 4, 0, 4)];
+    UIImage *maxImage = [UIImage imageNamed:@"slider-track.png"];
+    UIImage *thumbImage = [UIImage imageNamed:@"sliderthumb.png"];
+
+    
+    
+    [[UISlider appearance] setThumbImage:thumbImage forState:UIControlStateNormal];
+    [[UISlider appearance] setThumbImage:thumbImage forState:UIControlStateHighlighted];
+    [[UISlider appearance] setMaximumTrackImage:maxImage forState:UIControlStateNormal];
+    [[UISlider appearance] setMinimumTrackImage:minImage forState:UIControlStateNormal];
+
+
     return YES;
+    
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
